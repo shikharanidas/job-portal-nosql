@@ -39,12 +39,8 @@ class EmployerCreate(EmployerBase):
     password: str
 
 class Employer(EmployerBase):
-    # pass
     emp_id: str
-    # post_jobs: List[Jobs] = []
-    #
-    # class Config:
-    #     orm_mode = True
+    
 
 class EmployerUpdate(BaseModel):
     name:Optional[str]
